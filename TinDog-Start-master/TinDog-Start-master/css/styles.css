@@ -1,0 +1,174 @@
+/* HTML Selectors */
+
+body {
+    font-family: "Montserrat";
+    font-weight: 300;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Montserrat";
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.container-fluid {
+    padding: 3% 15% 0;
+}
+
+.navbar {
+    padding: 0 0 4rem;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-family: "Ubuntu";
+    font-weight: bold;
+}
+
+.nav-link {
+    font-weight: 200;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.big-heading {
+    font-size: 3.3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    text-align: left;
+}
+
+#dog-photo {
+    rotate: 22deg;
+    height: 70%;
+    padding-left: 7%;
+    position: absolute;
+    z-index: 1;
+}
+
+.dl-button {
+    margin: 5% 3% 18% 0;
+}
+
+.body-icons {
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+
+.body-icons:hover {
+    color: #ff4c68;
+}
+
+#features {
+    padding: 11% 13% 6%;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+}
+
+.blurbs {
+    padding: 5%;
+}
+
+#testimonials {
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 4%;
+}
+
+.press-photo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-inner {
+    padding: 11% 13% 7%;
+}
+
+#pricing {    
+    padding: 100px;
+}
+
+.btn-enroll {
+    width: 100%;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media (max-width: 1020px) {
+    #dog-photo {
+        position: static;
+        rotate: 0deg;
+        height: 90%;
+        padding: 0;
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    .photo-col {
+        height: 400px;
+    }
+
+}
+
+#cta {
+    padding: 6% 20% 0;
+    background-color: #ff4c68;
+}
+
+.tagline {
+    font-family: "Montserrat";
+    font-weight: 900;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.dl-button-bottom {
+    margin: 5% 3% 7%;
+}
+
+#footer {
+    background-color: white;
+    padding-top: 1rem;
+}
+
+.bottom-icon {
+    padding: 3% 0.5% 2%;
+    color: rgb(150, 148, 146);
+}
