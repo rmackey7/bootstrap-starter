@@ -1,2 +1,1 @@
-# bootstrap-starter
-first bootstrap site
+TinDog Starting Files
